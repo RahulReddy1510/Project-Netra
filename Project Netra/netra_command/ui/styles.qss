@@ -1,0 +1,82 @@
+/* Netra Command Interface - "Cyber Construction" Theme */
+
+/* Color Palette:
+   Deep Charcoal: #121212
+   Surface Dark: #1E1E1E
+   Cyber Lime: #32CD32 (Success/Safety)
+   Warning Amber: #FFBF00 (Violation)
+   Alloy Grey: #B0B0B0 
+*/
+
+QMainWindow {
+    background-color: #121212;
+}
+
+QWidget {
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    color: #B0B0B0;
+    font-size: 14px;
+}
+
+/* Headers & Labels */
+QLabel#Header {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+QLabel#StatLabel {
+    color: #32CD32;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sidebar & Panels */
+QFrame#Panel {
+    background-color: #1E1E1E;
+    border: 1px solid #333333;
+    border-radius: 8px;
+}
+
+/* Event Logs */
+QListWidget {
+    background-color: #151515;
+    border: none;
+    outline: none;
+}
+
+QListWidget::item {
+    padding: 10px;
+    border-bottom: 1px solid #2A2A2A;
+}
+
+QListWidget::item:selected {
+    background-color: #2A2A2A;
+    border-left: 2px solid #FFBF00;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #2A2A2A;
+    color: white;
+    border: 1px solid #32CD32;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #32CD32;
+    color: #121212;
+}
+
+QPushButton#DangerBtn {
+    border: 1px solid #FF4444;
+    color: #FF4444;
+}
+
+QPushButton#DangerBtn:hover {
+    background-color: #FF4444;
+    color: white;
+}

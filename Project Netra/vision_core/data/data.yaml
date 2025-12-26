@@ -1,0 +1,16 @@
+path: ../datasets  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: valid/images  # val images (relative to 'path')
+test: test/images # test images (optional)
+
+# Classes
+names:
+  0: Helmet
+  1: Vest
+  2: Person
+  3: No-Helmet
+  4: No-Vest
+
+# Project Netra Configuration
+# We prioritize "Helmet" and "Vest" detection for positive reinforcement,
+# and "No-Helmet"/"No-Vest" for violation detection.

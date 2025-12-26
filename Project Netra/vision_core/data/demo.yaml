@@ -1,0 +1,12 @@
+# Relative path from the 'current working directory' where train_yolo.py is executed
+# CWD expected: C:\Users\Rahul Reddy\Desktop\Project Netra
+path: vision_core/data/demo_dataset
+train: images/train
+val: images/val
+
+names:
+  0: Helmet
+  1: Vest
+  2: Person
+  3: No-Helmet
+  4: No-Vest
